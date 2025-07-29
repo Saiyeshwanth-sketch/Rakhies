@@ -1,0 +1,152 @@
+<html xmlns:o='urn:schemas-microsoft-com:office:office' xmlns:w='urn:schemas-microsoft-com:office:word' xmlns='http://www.w3.org/TR/REC-html40'><head><meta charset='utf-8'><title>Text To Word</title></head><body><p>body {</p>
+<p>&nbsp; font-family: 'Peace Sans', sans-serif;</p>
+<p>&nbsp; margin: 0;</p>
+<p>&nbsp; padding: 0;</p>
+<p>&nbsp; background: #fff8f0;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>header {</p>
+<p>&nbsp; text-align: center;</p>
+<p>&nbsp; padding: 1rem;</p>
+<p>&nbsp; background: #ffdde0;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.product-grid {</p>
+<p>&nbsp; display: grid;</p>
+<p>&nbsp; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr));</p>
+<p>&nbsp; gap: 1rem;</p>
+<p>&nbsp; padding: 1rem;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.product {</p>
+<p>&nbsp; background: #fff;</p>
+<p>&nbsp; border-radius: 12px;</p>
+<p>&nbsp; box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);</p>
+<p>&nbsp; overflow: hidden;</p>
+<p>&nbsp; padding: 0.5rem;</p>
+<p>&nbsp; text-align: center;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.product img {</p>
+<p>&nbsp; width: 100%;</p>
+<p>&nbsp; height: auto;</p>
+<p>&nbsp; border-radius: 8px;</p>
+<p>&nbsp; cursor: pointer;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.toggle-btn {</p>
+<p>&nbsp; margin-top: 0.5rem;</p>
+<p>&nbsp; padding: 0.4rem 1rem;</p>
+<p>&nbsp; background: #ff6978;</p>
+<p>&nbsp; color: white;</p>
+<p>&nbsp; border: none;</p>
+<p>&nbsp; border-radius: 20px;</p>
+<p>&nbsp; cursor: pointer;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.controls {</p>
+<p>&nbsp; display: flex;</p>
+<p>&nbsp; justify-content: center;</p>
+<p>&nbsp; gap: 10px;</p>
+<p>&nbsp; margin-top: 10px;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.controls button {</p>
+<p>&nbsp; padding: 5px 10px;</p>
+<p>&nbsp; background-color: #ff6978;</p>
+<p>&nbsp; color: white;</p>
+<p>&nbsp; border: none;</p>
+<p>&nbsp; border-radius: 8px;</p>
+<p>&nbsp; cursor: pointer;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.upi-section {</p>
+<p>&nbsp; text-align: center;</p>
+<p>&nbsp; margin: 2rem 0;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.upi-image {</p>
+<p>&nbsp; max-width: 220px;</p>
+<p>&nbsp; border-radius: 12px;</p>
+<p>&nbsp; margin-top: 10px;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>#whatsapp-contact {</p>
+<p>&nbsp; text-align: center;</p>
+<p>&nbsp; margin: 20px 0;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.whatsapp-link {</p>
+<p>&nbsp; color: #25D366;</p>
+<p>&nbsp; font-size: 18px;</p>
+<p>&nbsp; text-decoration: none;</p>
+<p>&nbsp; display: inline-flex;</p>
+<p>&nbsp; align-items: center;</p>
+<p>&nbsp; gap: 8px;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.modal {</p>
+<p>&nbsp; display: none;</p>
+<p>&nbsp; position: fixed;</p>
+<p>&nbsp; z-index: 1000;</p>
+<p>&nbsp; padding-top: 60px;</p>
+<p>&nbsp; left: 0;</p>
+<p>&nbsp; top: 0;</p>
+<p>&nbsp; width: 100%;</p>
+<p>&nbsp; height: 100%;</p>
+<p>&nbsp; overflow: hidden;</p>
+<p>&nbsp; background-color: rgba(0, 0, 0, 0.9);</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.modal-content {</p>
+<p>&nbsp; margin: auto;</p>
+<p>&nbsp; display: block;</p>
+<p>&nbsp; max-width: 90%;</p>
+<p>&nbsp; max-height: 80vh;</p>
+<p>&nbsp; border-radius: 10px;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.close {</p>
+<p>&nbsp; position: absolute;</p>
+<p>&nbsp; top: 20px;</p>
+<p>&nbsp; right: 30px;</p>
+<p>&nbsp; color: white;</p>
+<p>&nbsp; font-size: 40px;</p>
+<p>&nbsp; font-weight: bold;</p>
+<p>&nbsp; cursor: pointer;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.order-form {</p>
+<p>&nbsp; text-align: center;</p>
+<p>&nbsp; margin: 2rem;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.order-form h2 {</p>
+<p>&nbsp; font-size: 1.4rem;</p>
+<p>&nbsp; margin-bottom: 1rem;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.order-form input,</p>
+<p>.order-form textarea,</p>
+<p>.order-form button {</p>
+<p>&nbsp; display: block;</p>
+<p>&nbsp; width: 80%;</p>
+<p>&nbsp; max-width: 400px;</p>
+<p>&nbsp; margin: 10px auto;</p>
+<p>&nbsp; padding: 10px;</p>
+<p>&nbsp; border-radius: 8px;</p>
+<p>&nbsp; border: 1px solid #ccc;</p>
+<p>&nbsp; font-size: 16px;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>.order-form button {</p>
+<p>&nbsp; background-color: #ff6978;</p>
+<p>&nbsp; color: white;</p>
+<p>&nbsp; border: none;</p>
+<p>&nbsp; cursor: pointer;</p>
+<p>}</p>
+<p>&nbsp;</p>
+<p>#formStatus {</p>
+<p>&nbsp; margin-top: 10px;</p>
+<p>&nbsp; color: green;</p>
+<p>}</p></body></html>
